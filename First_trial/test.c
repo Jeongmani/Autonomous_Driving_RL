@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main(void) {
@@ -7,8 +8,8 @@ int main(void) {
 	printf("Enter the number: ");
 	scanf("%d", &num);
     scanf("%d", &num);
-
-	printf("Your number is %d\n", num);
-
+	
+    printf("Hello World!\n");
 	return 0;
 }
+>>>>>>> kosang
