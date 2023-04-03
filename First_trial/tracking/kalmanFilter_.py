@@ -1,7 +1,7 @@
 import numpy as np
 
 # dt값에 따라 filter의 정도가 달라진다. 다만 큰 차이는 없다
-def kalmanFilter_(measuredstate, estimation, letterP, dt=1):
+def kalmanFilter_(measuredstate, estimation, letterP, dt=2):
     """입력된 현재 좌표와 전의 추정값과 오차 공분산으로 다음 위치 예측
     Args:
         measuredstate   (ndarray) : 현재 추적중인 중점 좌표 (예: [x좌표, y좌표])
